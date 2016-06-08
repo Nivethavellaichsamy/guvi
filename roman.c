@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
 int romanToDecimal(int n,char a[]);
 int main(){
 	int n,decimal;
@@ -12,7 +12,6 @@ int main(){
 	scanf("%s",ptr);
 	decimal=romanToDecimal(n,ptr);
 	printf("Decimal value is %d",decimal);
-	getch();
 	return 0;
 
 }
